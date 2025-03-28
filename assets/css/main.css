@@ -1,0 +1,61 @@
+
+body {
+    background-position: center center;
+    background-color: #333333;
+    height: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.97;
+}
+
+.btns-linha, .btns-especial {
+    display: flex;
+}
+
+.calculator {
+    background-color: #000;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #000;
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.ac, .especial, .igual{
+    background-color: #B31212;
+}
+
+.btn:hover, .ac:hover, .especial:hover, .igual:hover {
+    background-color: #000807;
+}
+
+.result {
+    height: 100px;
+    width: 200px;
+    color: #fff;
+    text-align: right;
+    font-size: 35px;
+    border-bottom: 1px solid #fff;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    word-break: break-all;
+}
